@@ -121,6 +121,7 @@ export default function ClaimPage() {
         abi: cmAbi,
         functionName: "recordParticipation",
         args: [BigInt(params.campaignId), BigInt(params.expiry), nonce32, sig as `0x${string}`],
+        gas: BigInt(200000),
       },
       {
         onSuccess: () => {
