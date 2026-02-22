@@ -1,0 +1,26 @@
+{
+  "name": "dauproof-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.1.0",
+    "@tanstack/react-query": "^5.51.0",
+    "ethers": "^6.13.0",
+    "next": "^14.2.0",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "resend": "^3.4.0",
+    "viem": "^2.17.0",
+    "wagmi": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.5.0"
+  }
+}

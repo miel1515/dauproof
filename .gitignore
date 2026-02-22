@@ -1,0 +1,8 @@
+node_modules/
+.next/
+cache/
+artifacts/
+typechain-types/
+.env
+.env.local
+.DS_Store
